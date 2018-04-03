@@ -96,7 +96,7 @@ If `-i` is not present, then only sync once
 
 #### start
 ```
-python irods_sync.py start <local_dir> <collection> [-i <restart interval>] [ --event_handler <module name> ] [ --job_name <job name> ]
+python irods_sync.py start <local_dir> <collection> [-i <restart interval>] [ --event_handler <module name> ] [ --job_name <job name> ] [ --log_filename <log file name> ] [ --log_when <log when> ] [ --log_interval <log interval> ] [ --log_level <log level> ]
 ```
 
 #### list restarting jobs
